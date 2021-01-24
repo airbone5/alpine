@@ -1,3 +1,5 @@
+# from https://note.com/usuha/n/n208a51e4c4cd
+
 apk update
 setup-xorg-base
 apk add alpine-desktop
@@ -7,6 +9,8 @@ apk add faenza-icon-theme
 apk add leafpad
 apk add setxkbmap
 apk add slim
+apk add chromium
+
 rc-service dbus start
 rc-update add dbus
 rc-service udev start
@@ -32,3 +36,4 @@ echo vboxnetflt >> /etc/modules
 # poweroff
 
 # sudo userでログインします。
+
